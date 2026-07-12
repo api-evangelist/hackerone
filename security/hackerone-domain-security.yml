@@ -1,0 +1,22 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: api.hackerone.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Mar 22 23:59:59 2027 GMT
+  hsts: true
+  hsts_max_age: 31536000
+domains:
+- domain: hackerone.com
+  dnssec: true
+  caa:
+  - 0 iodef "mailto:caa-reports@hackerone.com"
+  - 0 issue "amazonaws.com"
+  - 0 issue "digicert.com"
+  - 0 issue "letsencrypt.org"
+  - 0 issuewild ";"
+  spf: true
+  dmarc: true
+  dmarc_policy: reject

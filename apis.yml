@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://api.hackerone.com/
 common:
+  - type: DomainSecurity
+    url: security/hackerone-domain-security.yml
   - type: Website
     url: https://api.hackerone.com/
   - type: PublicAPIsListing
