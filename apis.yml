@@ -1,4 +1,16 @@
 aid: hackerone
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hackerone.png
 name: HackerOne
 description: "The industry’s first hacker API that helps increase productivity towards creative bug bounty hunting"
 url: https://api.hackerone.com/
