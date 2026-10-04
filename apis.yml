@@ -35,11 +35,14 @@ x-tier-reason: bulk-registered-from-public-apis
 tags:
   - Security
   - Public APIs
+  - Cybersecurity
+  - Vulnerability Management
+  - Bug Bounty
+  - Vulnerability Disclosure
 apis:
   - name: HackerOne
     description: "The industry’s first hacker API that helps increase productivity towards creative bug bounty hunting"
     humanURL: https://api.hackerone.com/
-    baseURL: https://api.hackerone.com/
     tags:
       - Security
     properties:
