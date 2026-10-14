@@ -3,6 +3,7 @@ method: searched
 checked:
 - https://github.com/marketplace?type=apps
 - https://marketplace.atlassian.com/
+- palo-alto-networks/integrations/palo-alto-networks-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: GitHub Marketplace (apps)
@@ -38,6 +39,25 @@ edges:
   publisher_name: HackerOne
   detected_by: sweep-devtools.py
   detected: '2026-10-14'
+- partner_name: Palo Alto Networks (own)
+  partner: palo-alto-networks
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://cortex.marketplace.pan.dev/marketplace/details/HackerOne/
+  mirror_of: palo-alto-networks/integrations/palo-alto-networks-integration-edges.yml
+  apps:
+  - HackerOne
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Vulnerability Management
+  badges:
+  - support:partner
 source:
 - https://github.com/marketplace?type=apps
 - https://marketplace.atlassian.com/
